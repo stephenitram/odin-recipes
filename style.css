@@ -1,0 +1,80 @@
+/* index.html styling */
+
+div {
+  color: black;
+}
+
+/*  style * vershadows other styling
+*/
+
+/* grouping selectors  */
+
+* {
+  background-color: wheat;
+}
+
+h1,
+h3,
+p,
+ul,
+ol {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* .abc-ingredients,
+.bp-ingredients,
+.hgh-ingredients {
+  color: green;
+} */
+
+/* .abc-steps,
+.bp-steps,
+.hgh-steps {
+  color: brown;
+} */
+
+h3,
+h1 {
+  color: black;
+  background-color: burlywood;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* chaining selector : for selectors with more than one class*/
+
+/* .recipes.abc {
+  font-size: xx-large;
+} */
+
+.recipes {
+  font-size: x-large;
+}
+
+/* Descendants Combinators */
+
+footer {
+  padding-top: 5em;
+}
+.parent .child {
+  color: brown;
+  font-size: x-large;
+}
+
+header {
+  font-size: 22px;
+}
+
+.intro {
+  font-weight: bold;
+}
+
+img {
+  height: auto;
+  width: 500px;
+}
